@@ -152,6 +152,7 @@ public class RadioTest {
         Radio radioStation = new Radio();
 
         radioStation.setCurrentNumberStation(-1);
+        
         radioStation.prevStation();
 
         int expected = 9;
