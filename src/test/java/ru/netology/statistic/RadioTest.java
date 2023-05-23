@@ -100,7 +100,7 @@ public class RadioTest {
         radioStation.nextStation();
 
         int expected = 1;
-        int actual = radioStation.getCurrentStation();
+        int actual = radioStation.getCurrentNumberStation();
 
         Assertions.assertEquals(expected, actual);
     }
@@ -114,7 +114,7 @@ public class RadioTest {
         radioStation.nextStation();
 
         int expected = 0;
-        int actual = radioStation.getCurrentStation();
+        int actual = radioStation.getCurrentNumberStation() ;
 
         Assertions.assertEquals(expected, actual);
     }
@@ -128,7 +128,7 @@ public class RadioTest {
         radioStation.nextStation();
 
         int expected = 4;
-        int actual = radioStation.getCurrentStation();
+        int actual = radioStation.getCurrentNumberStation();
 
         Assertions.assertEquals(expected, actual);
     }
@@ -142,7 +142,7 @@ public class RadioTest {
         radioStation.nextStation();
 
         int expected = 1;
-        int actual = radioStation.getCurrentStation();
+        int actual = radioStation.getCurrentNumberStation();
 
         Assertions.assertEquals(expected, actual);
     }
@@ -157,7 +157,7 @@ public class RadioTest {
         radioStation.prevStation();
 
         int expected = 7;
-        int actual = radioStation.getCurrentStation();
+        int actual = radioStation.getCurrentNumberStation();
 
         Assertions.assertEquals(expected, actual);
     }
@@ -171,7 +171,7 @@ public class RadioTest {
         radioStation.prevStation();
 
         int expected = 8;
-        int actual = radioStation.getCurrentStation();
+        int actual = radioStation.getCurrentNumberStation();
 
         Assertions.assertEquals(expected, actual);
     }
@@ -185,7 +185,7 @@ public class RadioTest {
         radioStation.prevStation();
 
         int expected = 1;
-        int actual = radioStation.getCurrentStation();
+        int actual = radioStation.getCurrentNumberStation();
 
         Assertions.assertEquals(expected, actual);
     }
